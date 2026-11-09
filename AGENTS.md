@@ -16,7 +16,11 @@ Gabriel Burns, Head of Systems, is the production gatekeeper.
   5. open or update a concise PR for Gabriel to review;
   6. stop before merging to `main`.
 
-PR descriptions should briefly explain:
+PR descriptions and approval/review request notes for Gabriel must always lead with a short, plain-English summary of what has been done, why it matters, and what will change for people using the system. Use everyday, non-code terms; the opening should be understandable without file names, function names, API details, or other implementation jargon.
+
+Keep the full technical detail below that summary under clear headings. Gabriel is a power user and can dig into the detail; simplify the opening without removing the detail.
+
+The detail below the summary should cover:
 
 - what changed;
 - why;
